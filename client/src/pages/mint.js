@@ -83,7 +83,7 @@ const mint = () => {
       await transactionHash.wait();
       setIsLoading(false);
       window.location = '/shop';
-    } catch (error) { setIsLoading(false);}
+    } catch (error) { setIsLoading(false); }
   }
 
   const changeImage = async (e) => {
@@ -131,7 +131,7 @@ const mint = () => {
 
               <div className="flex flex-wrap gap-[40px]">
                 <CustomInput name={'price'} text={'Set NFT Price'} type={'number'} handleChange={handleChange} />
-                
+
                 <label className="flex-1 w-full flex flex-col">
                   <span className="font-epilogue font-medium text-[14px] leading-[22px] text-[#808191] mb-[10px]">NFT File *</span>
 

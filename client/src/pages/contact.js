@@ -4,13 +4,13 @@ import React from 'react'
 
 const contact = () => {
   return (
-    <>    
-    <Head>
-      <title>CodeLek Technology - Contact Us</title>
-    </Head>
-    <div className="contact">
-      <Contact />
-    </div>
+    <>
+      <Head>
+        <title>CodeLek Technology - Contact Us</title>
+      </Head>
+      <div className="contact">
+        <Contact />
+      </div>
     </>
   )
 }

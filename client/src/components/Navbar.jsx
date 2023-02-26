@@ -1,9 +1,8 @@
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import CustomButton from './CustomButton';
-// import { user } from '../../public/user.png';
 
-const Navbar = ({currentAccount, connectAccount}) => {
+const Navbar = ({ currentAccount, connectAccount }) => {
   // Define States
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -61,7 +60,7 @@ const Navbar = ({currentAccount, connectAccount}) => {
 
                 <Link onClick={() => setMenuOpen(false)} className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700" href={'/about'}>
                   About Us</Link>
-                  
+
                 <Link onClick={() => setMenuOpen(false)} className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700" href={'/contact'}>
                   Contact Us
                 </Link>
@@ -77,16 +76,16 @@ const Navbar = ({currentAccount, connectAccount}) => {
                   </button>
                 </Link>
 
-                {currentAccount &&                 
-                <Link onClick={() => setMenuOpen(false)} href={'/profile'}>
-                  <button type="button" className="flex items-center focus:outline-none">
-                    <div className="w-8 h-8 overflow-hidden border-1 border-gray-400 rounded-full">
-                      <img src='https://cdn-icons-png.flaticon.com/128/1177/1177568.png' className="object-cover w-full h-full" alt="avatar" />
-                    </div>
-                  </button>
-                </Link>
+                {currentAccount &&
+                  <Link onClick={() => setMenuOpen(false)} href={'/profile'}>
+                    <button type="button" className="flex items-center focus:outline-none">
+                      <div className="w-8 h-8 overflow-hidden border-1 border-gray-400 rounded-full">
+                        <img src='https://cdn-icons-png.flaticon.com/128/1177/1177568.png' className="object-cover w-full h-full" alt="avatar" />
+                      </div>
+                    </button>
+                  </Link>
                 }
-                {currentAccount ? <Link href={'/mint'}><CustomButton handleClick={()=> {}} text={'Create NFT'} /></Link> : <CustomButton handleClick={connectAccount} text={'connect Wallet'}/>}
+                {currentAccount ? <Link href={'/mint'}><CustomButton handleClick={() => { }} text={'Create NFT'} /></Link> : <CustomButton handleClick={connectAccount} text={'connect Wallet'} />}
               </div>
             </div>
           </div>

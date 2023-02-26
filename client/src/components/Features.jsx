@@ -7,7 +7,7 @@ const Features = () => {
             <section className="bg-white dark:bg-gray-900">
                 <div className="container px-6 py-10 mx-auto">
                     <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br /> awesome <span className="text-pink-500">Components</span></h1>
-                    
+
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
 
                         <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800 hover:dark:bg-gray-700 hover:cursor-pointer">

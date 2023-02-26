@@ -46,16 +46,16 @@ export default function App({ Component, pageProps }) {
   };
 
 
-useEffect(() => {
-  checkIfWalletIsConnected();
-}, [])
+  useEffect(() => {
+    checkIfWalletIsConnected();
+  }, [])
 
 
   return (
     <>
       <NextNProgress />
       {isLoading && <Loader />}
-      {currentAccount ? <Navbar currentAccount={currentAccount} /> : <Navbar connectAccount={connectWallet}/>}
+      {currentAccount ? <Navbar currentAccount={currentAccount} /> : <Navbar connectAccount={connectWallet} />}
       <Component {...pageProps} currentAccount={currentAccount} />
       <Footer />
     </>

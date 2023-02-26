@@ -81,7 +81,7 @@ const ToggleChange = ({ NFTData, currentIndex, currentAccount, close }) => {
                         <section className="text-gray-700 body-font dark:bg-black">
                             <AiOutlineClose fontSize={28} className="text-white float-right cursor-pointer mt-3 mr-3" onClick={close} />
                             <div className="container px-4 py-20 mx-auto">
-                            {isLoading && <Loader /> }
+                                {isLoading && <Loader />}
                                 <div className="lg:w-4/5 mx-auto flex flex-wrap">
                                     <img alt="ecommerce" className="lg:w-1/2 w-full object-cover object-center rounded-lg" src={NFTData.fileURI} />
                                     <div className="lg:w-1/2 w-full lg:pl-7 lg:py-6 mt-6 lg:mt-0">

@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 import { SiEthereum } from 'react-icons/si';
 
 const MyNFTCard = ({ nfts, handleClick }) => {

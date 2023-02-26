@@ -35,8 +35,8 @@ const shop = () => {
     const allNFTs = await Contract.getAllNFTs();
 
     const AllNFTs = await allNFTs.filter((item) => item.isOnSale == true);
-    
-    try{
+
+    try {
       const structuredNFTs = AllNFTs.map((items) => ({
         tokenId: parseInt(items.tokenId._hex),
         nftOwner: items.nftOwner,
@@ -50,7 +50,7 @@ const shop = () => {
       }));
       setTokenData(structuredNFTs);
       setIsLoading(false);
-    }catch(error){
+    } catch (error) {
       setIsLoading(false);
       console.log(error);
     }
@@ -67,7 +67,7 @@ const shop = () => {
       </Head>
       {isLoading && <Loader />}
       <div className='max-w-full h-full flex relative overflow-y-hidden'>
-        <div className='h-full w-full py-4 mx-2 flex flex-wrap items-start justify-start rounded-tl grid-flow-col auto-cols-max gap-4 overflow-y-auto'>
+        <div className='h-full w-full py-4 mx-2 flex flex-wrap items-start justify-center rounded-tl grid-flow-col auto-cols-max gap-4 overflow-y-auto'>
 
 
 
@@ -84,11 +84,10 @@ const shop = () => {
           )}
 
 
-          {tokenData.length > 0 && tokenData.map((nft,indexId) =>
+          {tokenData.length > 0 && tokenData.map((nft) =>
             <SingleCard
               key={nft.tokenId}
               nfts={nft}
-              indexId={indexId}
             />
           )}
         </div>

@@ -7,9 +7,9 @@ const truncate = (str) => {
 }
 
 
-const SingleCard = ({ nfts, indexId }) => {
+const SingleCard = ({ nfts }) => {
   return (
-    <Link href={`/nft/${nfts.tokenId -1}?price=${nfts.price}`}>
+    <Link href={`/nft/${nfts.tokenId - 1}?price=${nfts.price}`}>
       <div className="sm:w-[288px] w-full rounded-[15px] bg-[#121218] cursor-pointer">
         <img src={nfts.fileURI} alt="fund" className="w-full h-[200px] object-cover rounded-[15px]" />
 

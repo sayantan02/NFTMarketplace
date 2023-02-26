@@ -4,17 +4,6 @@ import React from 'react'
 const Hero = () => {
     return (
         <>
-            {/* <style jsx>
-                {`
-            #hero{
-                background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80');
-                
-                -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-                
-                clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-            }
-            `}
-            </style> */}
             <div>
                 <div className="container px-6 py-16 mx-auto">
                     <div className="items-center lg:flex">

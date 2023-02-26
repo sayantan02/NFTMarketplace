@@ -2,7 +2,7 @@ const hre = require('hardhat');
 const main = async () => {
 
   const Transactions = await hre.ethers.getContractFactory("NFTMarketplace");
-  const transactions = await Transactions.deploy("CodeLek Technology","CLT",10);
+  const transactions = await Transactions.deploy("CodeLek Technology", "CLT", 10);
 
   await transactions.deployed();
 
