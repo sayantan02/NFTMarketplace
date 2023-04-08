@@ -9,25 +9,25 @@ A NFT Marketplace for Minting & Purchasing NFTs. All details are described in th
 ## Screenshots
 
 - Home Page
-![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/Home.PNG?token=GHSAT0AAAAAAB5UD7VNJ3SEIE5NXLPVXWCEY73AFWQ)
+![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/Home.PNG)
 
 - Shop Page
-![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/shop.PNG?token=GHSAT0AAAAAAB5UD7VNL6IEWOGWTPKYB7ZUY73AGMQ)
+![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/shop.PNG)
 
 - Purchase NFT Page 
-![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/purchase.PNG?token=GHSAT0AAAAAAB5UD7VNI6ZXNAVYS3ADHBSIY73AHFQ)
+![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/purchase.PNG)
 
 - Mint NFT Page
-![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/mint.PNG?token=GHSAT0AAAAAAB5UD7VNUNJOZ75KT4AEFJQMY73AIAQ)
+![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/mint.PNG)
 
 - Change NFT Price, Page 
-![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/ChangePrice.PNG?token=GHSAT0AAAAAAB5UD7VMUOJMR7GMPW2N2EWUY73AKBA)
+![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/ChangePrice.PNG)
 
 - My NFTs - Profile Page
-![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/myNFTs.PNG?token=GHSAT0AAAAAAB5UD7VMUDQQD3UEAMA64P6YY73ALDQ)
+![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/myNFTs.PNG)
 
 - My Transactions - Profile Page
-![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/myTransactions.PNG?token=GHSAT0AAAAAAB5UD7VMU3QSRM5PQQX7CM7YY73AMRQ)
+![App Screenshot](https://raw.githubusercontent.com/sayantan02/NFTMarketplace/master/screenshots/myTransactions.PNG)
 ## Features
 
 - Light/dark mode support.
