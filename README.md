@@ -1,5 +1,3 @@
-![Logo](https://www.codelek.com/static/img/favicon/apple-touch-icon.png)
-
 ![Logo](https://raw.githubusercontent.com/sayantan02/sayantan02/main/Blue%20and%20White%20Modern%20Tech%20Web%20Developer%20Twitter%20Header.png)
 # NFT Marketplace
 
